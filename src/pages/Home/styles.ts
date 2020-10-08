@@ -1,12 +1,9 @@
 import styled from 'styled-components';
 
-export const Title = styled.h1`
-  font-size: 48px;
-  color: #3a3a3a;
-`;
-
 export const Container = styled.div`
-  display: flex;
+  width: 100vw;
+  background: #040402;
+  color: #f0f9ff;
   /*flex-wrap: wrap;
   justify-content: center;*/
 `;

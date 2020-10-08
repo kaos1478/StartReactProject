@@ -6,14 +6,18 @@ export default createGlobalStyle`
     padding: 0;
     outline: 0;
     box-sizing: border-box;
+    font-family: Roboto, sans-serif;
   }
 
   body {
     -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   body, input, button {
-    font: 16px 'Roboto', sans-serif;
+    /*font: 16px 'Roboto', sans-serif;*/
   }
 
   #root {

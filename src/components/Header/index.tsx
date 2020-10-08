@@ -1,19 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import { Container } from './styles';
+import HeaderItem from './HeaderItem';
 
 const Header: React.FC = () => {
   return (
     <Container>
-      <h1>Logo</h1>
+      <h1>WPASEC</h1>
       <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/example">Example</Link>
-        </li>
+        <HeaderItem to="/" description="Home" />
+        <HeaderItem to="/find" description="Find" />
       </ul>
     </Container>
   );
